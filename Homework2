@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+@course: Python is Easy
+
+@assignment: Homework #2
+
+@description: functiona and how to call them
+
+Created on Thu Feb 11 21:36:13 2021
+
+@author: Claus Derlien
+"""
+
+# defines name of artist/group/band
+#Artist = "Pink Floyd"
+# defines music style/genre
+#Genre = "Progressive Rock"
+# defines Album name
+#Album = "The Dark Side of the Moon"
+
+def Artist():
+    return "Pink Floyd"
+def Genre():
+    return "Progressive Rock"
+def Album():
+    return "The Dark Side of the Moon"
+# for the extra credit, a function that will return true if artist and genre is equal
+
+def valid():
+    if Artist() == Genre():
+        return True
+    else:
+        return False
+
+print(Artist())
+print(Genre())
+print(Album())
+print(valid())
+
